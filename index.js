@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // 1. COLE AQUI SUA URL DO WEBHOOK DO DISCORD
-const DISCORD_WEBHOOK_URL = 'SUA_URL_DO_DISCORD_AQUI';
+const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1511514400182505692/euousLMl96rnOKVhEc-nOEEmSTQAickvKKzmScfpgb64SODV1dfTJ4w-odKcYCjAP9K3';
 
 app.post('/leona-webhook', async (req, res) => {
     const data = req.body;
